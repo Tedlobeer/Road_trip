@@ -1,0 +1,434 @@
+header, footer
+    {
+        background-image: url('Images/flag_mini.png');
+        background-repeat:repeat;
+        height: 60px;
+    }
+
+#mon_titre
+    {
+        margin-top: 50px;
+        display: flex;
+        background-image: url('Images/départ.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 700px;
+        align-items: center;
+        justify-content: center;    
+        margin-bottom: 50px;
+    }
+
+#accueil
+    {
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+
+.container 
+    {
+        display: flex;
+        text-align: center;
+        gap: 50px;
+    }
+    
+#journal
+    {
+        display: flex;
+        flex-direction: column;
+        width: 44%;
+        height: 535px;
+        text-align: center;
+        border: 4px rgb(232, 71, 71) double;
+        margin-right: 50px;
+    }
+
+#container_journal1
+    {
+        height: 150px;
+    }
+
+#container_journal2
+    {
+        overflow: auto;
+    }
+    
+#voyage_en_cours
+    {
+        text-align: center;
+        border: 4px blue double;
+        margin-left: 50px;
+        height: 535px;
+        /*background-color: blueviolet;*/
+    }
+
+#aussie
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+figure img
+    {
+        margin-top: 35px;
+    }
+
+#sur_la_route
+    {
+        /*background-color: green;*/
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+.slr
+    {
+        text-align: center;
+        font-size: 3em;
+    }
+
+#fin
+    {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: black;
+        font-weight: 900;
+    }
+
+body 
+    {
+        font-family: roboto;
+    }
+#album
+    {
+        display: block;
+        margin: auto;
+    }
+
+#camera
+    {
+        flex-wrap: nowrap;     
+    }
+
+h1
+    {
+        text-align: center;
+        color: blue;
+    }
+
+#Indonesie
+    {
+        margin-bottom: 80px;
+    }
+
+#title_indonesie
+    {
+        text-align: center;
+        font-size: 2.4em;
+        margin-bottom: 50px;
+    }
+
+h3
+    {
+        margin-top: 200px;
+        font-size: 4em;
+        text-align: center;
+    }
+
+#map_indo
+    {
+        text-align: center;
+    }
+
+#texte_map_indo
+    {
+        text-align: center;
+        font-size: 1.5em;
+        margin: 0 25px 0 0px;
+    }
+
+.gras
+    {
+        font-weight: bold;
+    }
+
+#list_indo
+    {
+        font-size: 1.5em;
+    }
+
+#container_text_map_indo
+    {
+        display: flex;
+        flex-direction: column;
+        height: 480px;
+        overflow-y: scroll;
+        margin-left: 40px;
+    }
+
+#container_map_indo
+    {
+        display: flex;
+        gap: 50px;
+        margin: 0 30px 20px 0;
+    }
+
+.photos
+    {
+        width: auto;
+    }
+
+.galerie_indo
+    {
+        display: flex;
+        overflow-x: scroll;
+        gap: 10px;
+        text-align: center;
+        font-size: 0.8em;
+        align-items: flex-end;
+    }
+
+.photos_indo
+    {
+        width: auto;
+        height: 480px;
+    }
+
+#footer_indo, #header_indo
+    {
+        background-image: url('Images/flag_indo.jpg');
+        background-repeat: repeat;
+        height: 86px;
+    }
+
+figcaption
+    {
+        font-size: 2em;
+    }
+
+.gallery 
+    {
+        display: flex;
+        flex-wrap: nowrap; /* empêche le retour à la ligne */
+        overflow-x: auto; /* barre de défilement horizontale si nécessaire */
+    }
+
+#tableau_journal
+    {
+        border-collapse: separate;
+        width: 100%;
+        margin: auto;
+        background-color: #f9f9f9;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+
+#title_question
+    {
+        text-align: center;
+        font-size: 2.4em;
+        margin-bottom: 50px;
+    }
+
+#tableau_question
+    {
+        border-collapse: separate;
+        width: 60%;
+        margin: auto;
+        background-color: #f9f9f9;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 200px;
+    }    
+
+#container_tableau_question 
+    {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 500px;
+        width: 70%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+
+th, td 
+    {
+        padding: 12px;
+        border: 1px solid #ddd;
+    }
+
+.td1
+    {
+        font-weight: bold;
+    }
+      
+th 
+    {
+        background-color: #333;
+        color: #fff;
+    }
+      
+tr:nth-child(even) 
+    {
+        background-color: #f2f2f2;
+    }
+      
+tr:hover 
+    {
+        background-color: #ddd;
+    }
+
+.titre_tableau
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-decoration: underline;
+}
+ 
+.titre_tableau2
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#presentation_questions
+    {
+        text-align: center;
+        margin: 0 200px 50px 200px;
+        font-size: 1.2em;
+    }
+  
+  /* Optimiser la taille des polices pour les petits écrans */
+@media screen and (max-width: 480px) 
+  {
+    #mon_titre 
+        {
+            background-size: 100vw auto;
+            height: 300px;
+            width: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-position: center center; 
+            background-size: cover;    
+       }
+   
+    #accueil 
+        {
+            font-size: 1em;
+        }
+            
+    .container 
+        {
+            flex-direction: column;
+            width: 100%;
+        }
+
+    #img_aussie
+        {
+            width: 90%;
+        }
+
+    #journal
+        {
+            width:100%;
+            margin-right: 0;
+        }
+
+    #aussie
+        {
+            align-items: center;
+        }
+
+    #voyage_en_cours
+        {
+            width: 100%;
+            margin-left: 0;
+            height: 350px;
+        }
+
+    #album
+        {
+            width: 100%;
+        }
+
+    .slr
+        {
+            font-size: 2em;
+        }
+
+    #camera
+        {
+            width: 20%;
+        }
+
+    #container_tableau_question    
+        {
+            width: 100%;
+            overflow-x: scroll;
+            overflow-y: scroll;
+            height: 500px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+    #tableau_question
+        {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+    #title_question
+        {
+           font-size: 1.8em; 
+           margin-bottom: 15px;
+        }
+    #presentation_questions
+        {
+            text-align: center;
+            margin: 0 15px 20px 15px;
+            font-size: 1.2em;
+        }
+
+    #decalage
+        {
+            width: 70%;
+        }
+
+    p 
+        {
+            font-size: 14px;
+        }
+
+    #container_map_indo
+        {
+            flex-direction: column;
+            font-size: 0.7em;
+        }
+    
+    h3 
+        {
+            font-size: 2.8em;
+        }
+
+    .photos_indo
+        {
+            width: 300px;
+            height: auto;
+        }
+
+    #map_indo
+        {
+            width: 100%;
+            height: 300px;
+        }
+  
+    /* Masquer les éléments superflus pour les petits écrans */
+  .unnecessary-element 
+    {
+        display: none;
+    }
+}

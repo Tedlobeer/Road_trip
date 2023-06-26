@@ -1,0 +1,227 @@
+.mySlides1p, .mySlides3p, .mySlides5p
+  {
+    width: 350px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+.mySlides1l, .mySlides3l, .mySlides5l
+  {
+    width: 450px;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 250px;
+  }
+
+.mySlides2p, .mySlides4p
+  {
+    width: 350px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+
+.mySlides2l, .mySlides4l
+  {
+    width: 450px;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 250px;
+  }
+
+.portrait1, .portrait3, .portrait5
+  {
+    border: 2px darkcyan solid;
+  }
+
+.landscape1, .landscape3, .landscape5
+  {
+    display: flex;
+    flex-direction: column;
+    border: 2px darkcyan solid;
+  }
+
+.portrait2, .portrait4
+  {
+    border: 2px darkcyan solid;
+  }
+
+.landscape2, .landscape4
+  {
+    display: flex;
+    flex-direction: column;
+    border: 2px darkcyan solid;
+  }
+#button1l, #button3l, #button5l, #button1p, #button3p, #button5p
+  {
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+
+#caption1p, #caption3p, #caption5p, #caption1l, #caption3l, #caption5l
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    color:darkcyan;
+    text-align: center;
+  }
+
+#button2l, #button4l
+  {
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+
+#button2p, #button4p
+  {
+    margin-left: 300px;
+    margin-top: 30px;
+  }
+#caption2p, #caption4p, #caption2l, #caption4l
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    color:darkcyan;
+    text-align: center;
+  }
+
+section
+  {
+    border: 4px solid blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 850px;
+    display: flex;
+    gap: 10px;
+  }  
+
+header, footer
+  {
+    background-image: url('images/flag_mini.png');
+    background-repeat:repeat;
+    height: 60px;
+  }
+
+h1,h2
+  {
+    text-align: center;
+    color: blue;
+  }
+
+.container_impair_p
+  {
+    display: flex;
+  }
+
+.container_impair_l
+  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 42px;  
+  }
+
+.container_pair_p
+  {
+    display: flex;
+  }
+
+.container_pair_l
+  {
+    display: flex;
+    flex-direction: column;
+    margin-left: 42px;
+  }
+
+.photo_button
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+body 
+  {
+      font-family: roboto;
+  }
+
+#message
+  {
+    text-align: center;
+    color: red;
+    border: 6px red dashed;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+#indicationVidéo
+  {
+    border: 4px yellow dashed;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+video 
+  {
+    border: 4px yellow dashed;
+  }
+
+/* Réorganiser les éléments pour les petits écrans */
+@media screen and (max-width: 768px) 
+  {
+    /* Exemple de réorganisation de la mise en page */
+    .sidebar 
+      {
+        display: none;
+      }
+    
+    .main-content 
+      {
+        width: 100%;
+      }
+  }
+
+/* Optimiser la taille des polices pour les petits écrans */
+@media screen and (max-width: 480px) 
+  {
+    /* Exemple de modification de la taille de police */
+    h1 
+      {
+        font-size: 24px;
+      }
+    
+    p 
+      {
+        font-size: 14px;
+      }
+  }
+
+/* Augmenter la taille des boutons pour les écrans tactiles */
+.button 
+  {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+/* Optimiser l'affichage des images pour les petits écrans */
+img 
+  {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Masquer les éléments superflus pour les petits écrans */
+.unnecessary-element 
+  {
+    display: none;
+  }

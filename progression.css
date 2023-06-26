@@ -1,0 +1,102 @@
+header, footer
+    {
+        background-image: url('Images/flag_mini.png');
+        background-repeat:repeat;
+        height: 60px;
+    }
+
+#titre_progression
+    {
+        margin-bottom: 100px;
+        font-size: 0.8em;
+    }
+      
+#h3_progression
+    {
+        font-size: 1.92em;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+#p_progression
+    {
+        font-size: 1.36em;
+        text-align: center;
+        color:crimson;
+    }
+
+figure
+    {
+        text-align: center;
+        display: flex;
+    }    
+
+#aussie
+    {
+        display: block;
+        margin: 0 auto;
+    }
+
+#aussie_container 
+    {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+.figcap_prog
+    {
+        font-size: 1.4em;
+        margin: 30px 30px 30px 30px;
+        display: inline-block;
+        vertical-align: top;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+body 
+    {
+        font-family: roboto;
+    }
+
+/* Réorganiser les éléments pour les petits écrans */
+@media screen and (max-width: 768px) {
+    /* Exemple de réorganisation de la mise en page */
+    .sidebar {
+      display: none;
+    }
+    
+    .main-content {
+      width: 100%;
+    }
+  }
+  
+  /* Optimiser la taille des polices pour les petits écrans */
+  @media screen and (max-width: 480px) {
+    /* Exemple de modification de la taille de police */
+    h1 {
+      font-size: 24px;
+    }
+    
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  /* Augmenter la taille des boutons pour les écrans tactiles */
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  /* Optimiser l'affichage des images pour les petits écrans */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Masquer les éléments superflus pour les petits écrans */
+  .unnecessary-element {
+    display: none;
+  }
+  
