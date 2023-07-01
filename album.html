@@ -11,61 +11,86 @@
   gtag('config', 'G-6DKJ4WCZWK');
 </script>
 	<title>Ma galerie d'images</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
 	<link href="album.css" rel="stylesheet">
   <script src="album.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
 </head>
 <header></header>
 <body>
   
 	<h1>Ma galerie d'images</h1>
-  <p id="message">La galerie est encore en construction...<br>
-  Vous pouvez cliquer sur une image/vidéo pour l'agrandir/la lancer mais vous devrez revenir en arrière pour quitter l'agrandissement et ça vous ramènera à la 1ère image.<br>
-Je m'efforce de trouver les problèmes à ces solutions dans les plus brefs délais... <em>Tedlo</em> </p>
-  <p id="indicationVidéo"> Toutes les vidéos sont encadrées en pointillés jaune (comme cet encadré) car avec mon système (qui doit être pourri) de galerie, c'était trop compliqué de rajouter un bouton "play"</p>
-
-
+  
   <h2>Nos débuts en Australie</h2>
-	<section id="Perth">
+	<section id="Perth">     
 
-      <div class="portrait1">
-        <div class="container_impair_p">      
-
-          <a href="Images/Perth/vuePerth.mp4"><video class="mySlides1p" src="Images/Perth/vuePerth.mp4" alt="Vidéo" data-caption1p="Petit panorama de Perth, ville où on a passé la majeure partie de notre temps au début du séjour" ></a>
-          <a href="Images/Perth/ruelle.jpg"><img class="mySlides1p" src="Images/Perth/ruelle.jpg" alt="Image" data-caption1p="Petite ruelle médiévale sympathoche" ></a>
-          <a href="Images/Perth/barbeuc.mp4"><video class="mySlides1p" src="Images/Perth/barbeuc.mp4" alt="Vidéo" data-caption1p="Petit panorama de Perth, ville où on a passé la majeure partie de notre temps au début du séjour" ></a>
-          <a href="Images/Perth/eau.mp4"><video class="mySlides1p" src="Images/Perth/eau.mp4" alt="Vidéo" data-caption1p="On remplit notre eau potable comme on peut" ></a>      
-          <a href="Images/Perth/kingsPark.jpg"><img class="mySlides1p" src="Images/Perth/kingsPark.jpg" alt="Image" data-caption1p="Quelques vues depuis le Kings Park" ></a>
-          <a href="Images/Perth/kingsParkNight2.jpg"><img class="mySlides1p" src="Images/Perth/kingsParkNight2.jpg" alt="Image" data-caption1p="Quelques vues depuis le Kings Park" ></a>
-          <a href="Images/Perth/firework.jpg"><img class="mySlides1p" src="Images/Perth/firework.jpg" alt="Image" data-caption1p="Feux d'artifice à l'occasion de la fête nationale australienne" ></a>
-          <a href="Images/Perth/footing.mp4"><video class="mySlides1p" src="Images/Perth/footing.mp4" alt="Vidéo" data-caption1p="Petit footing" ></a>
-          <a href="Images/Perth/magnet.mp4"><video class="mySlides1p" src="Images/Perth/magnet.mp4" alt="Vidéo" data-caption1p="Plafond stylé du magnet" ></a>
-          <a href="Images/Perth/magnet2.mp4"><video class="mySlides1p" src="Images/Perth/magnet2.mp4" alt="Vidéo" data-caption1p="Plafond stylé du magnet" ></a>
-          <a href="Images/Perth/slt.jpg"><img class="mySlides1p" src="Images/Perth/slt.jpg" alt="Image" data-caption1p="Coucher de soleil vraiment stylé" ></a>
-          <a href="Images/Perth/slt2.jpg"><img class="mySlides1p" src="Images/Perth/slt2.jpg" alt="Image" data-caption1p="Ah ouais c'est beau dis !" ></a>
-          <a href="Images/Perth/Rottnest_Island/eauClaire.jpg"><img class="mySlides1p" src="Images/Perth/Rottnest_Island/eauClaire.jpg" alt="Image" data-caption1p="Rottnest Island" ></a>
-          <a href="Images/Perth/Rottnest_Island/eauClaire2.jpg"><img class="mySlides1p" src="Images/Perth/Rottnest_Island/eauClaire2.jpg" alt="Image" data-caption1p="Rottnest Island" ></a>
-          <a href="Images/Perth/Rottnest_Island/pink.jpg"><img class="mySlides1p" src="Images/Perth/Rottnest_Island/pink.jpg" alt="Image" data-caption1p="Rottnest Island" ></a>
-          <a href="Images/Perth/Rottnest_Island/pink2.jpg"><img class="mySlides1p" src="Images/Perth/Rottnest_Island/pink2.jpg" alt="Image" data-caption1p="Rottnest Island" ></a>
-          <a href="Images/Perth/Rottnest_Island/récif.jpg"><img class="mySlides1p" src="Images/Perth/Rottnest_Island/récif.jpg" alt="Image" data-caption1p="Rottnest Island" ></a>
-          
-          <p id="caption1p"></p>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="Images/Perth/vuePerth.mp4"><video src="Images/Perth/vuePerth.mp4" class="d-block carousel-media" alt="..."></a> 
+          <div class="carousel-caption d-none d-md-block">
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
         </div>
-
-        <script>
-          showSlides1p(1); // appel de la fonction pour afficher la première diapositive
-        </script>
-
-        <div id="button1p">
-          <button onclick="plusSlides1p(-1)">Précédent</button>
-          <button onclick="plusSlides1p(1)">Suivant</button>
+        <div class="carousel-item">
+          <img src="Images/Perth/ruelle.jpg" class="d-block carousel-media" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
         </div>
-
+        <div class="carousel-item">
+          <a href="Images/Perth/barbeuc.mp4"><video src="Images/Perth/barbeuc.mp4" class="d-block carousel-media" alt="..."></a> 
+          <div class="carousel-caption d-none d-md-block">
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Perth/kingsPark2.jpg" class="d-block carousel-media" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Perth/quad.jpeg" class="d-block carousel-media" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Perth/José.jpg" class="d-block carousel-media" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
       </div>
-
-      <div class="landscape1">  
-        <div class="container_impair_l">      
-
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+          <!--<video class="mySlides1p" src="Images/Perth/vuePerth.mp4" alt="Vidéo">
+          <img class="mySlides1p" src="Images/Perth/ruelle.jpg" alt="Image">
+          <video class="mySlides1p" src="Images/Perth/barbeuc.mp4" alt="Vidéo">
+          <video class="mySlides1p" src="Images/Perth/eau.mp4" alt="Vidéo">      
+          <img class="mySlides1p" src="Images/Perth/kingsPark.jpg" alt="Image">
+          <img class="mySlides1p" src="Images/Perth/kingsParkNight2.jpg" alt="Image">
+          <img class="mySlides1p" src="Images/Perth/firework.jpg" alt="Image">
+          <video class="mySlides1p" src="Images/Perth/footing.mp4">
+          <video class="mySlides1p" src="Images/Perth/magnet.mp4" alt="Vidéo">
+          <video class="mySlides1p" src="Images/Perth/magnet2.mp4" alt="Vidéo">
+          <img class="mySlides1p" src="Images/Perth/slt.jpg" alt="Image">
+          <img class="mySlides1p" src="Images/Perth/slt2.jpg" alt="Image">
+          <img class="mySlides1p" src="Images/Perth/Rottnest_Island/eauClaire.jpg" alt="Image">
+          <img class="mySlides1p" src="Images/Perth/Rottnest_Island/eauClaire2.jpg" alt="Image">
+          <img class="mySlides1p" src="Images/Perth/Rottnest_Island/pink.jpg" alt="Image">
+          <img class="mySlides1p" src="Images/Perth/Rottnest_Island/pink2.jpg" alt="Image">
+          <img class="mySlides1p" src="Images/Perth/Rottnest_Island/récif.jpg" alt="Image">     
           <a href="Images/Perth/1stFreeCamp.mp4"><video class="mySlides1l" src="Images/Perth/1stFreeCamp.mp4" alt="Vidéo 8" data-caption1l="Un de nos premiers jours dans un free camp, faute d'avoir trouvé un logement" ></a>
           <a href="Images/Perth/kingsPark2.jpg"><img class="mySlides1l" src="Images/Perth/kingsPark2.jpg" alt="Image 6" data-caption1l="Quelques vues depuis le Kings Park" ></a>
           <a href="Images/Perth/firework.mp4"><video class="mySlides1l" src="Images/Perth/firework.mp4" alt="Vidéo 2" data-caption1l="On était venu regarder les feux de cet endroit exprès mais... le spot n'est pas terrible." ></a>
@@ -83,22 +108,9 @@ Je m'efforce de trouver les problèmes à ces solutions dans les plus brefs dél
           <a href="Images/Perth/Rottnest_Island/vue2.jpg"><img class="mySlides1l" src="Images/Perth/Rottnest_Island/vue2.jpg" alt="Image 20" data-caption1l="Rottnest Island" ></a>
           <a href="Images/Perth/Rottnest_Island/vue2.mp4"><video class="mySlides1l" src="Images/Perth/Rottnest_Island/vue2.mp4" alt="Vidéo 6" data-caption1l="Rottnest Island" ></a>
           <a href="Images/Perth/Rottnest_Island/vueBateaux.mp4"><video class="mySlides1l" src="Images/Perth/Rottnest_Island/vueBateaux.mp4" alt="Vidéo 7" data-caption1l="Rottnest Island" ></a>
-          
-          <p id="caption1l"></p>
-        </div>
-  
-        <script>
-          showSlides1l(1); // appel de la fonction pour afficher la première diapositive
-        </script>
-  
-        <div id="button1l">
-          <button onclick="plusSlides1l(-1)">Précédent</button>
-          <button onclick="plusSlides1l(1)">Suivant</button>
-        </div>
-      </div>
-
+          -->
   </section>
-  
+  <!--
   <h2>Road trip</h2>
   <section id="Road_Trip">
 
@@ -454,7 +466,8 @@ Je m'efforce de trouver les problèmes à ces solutions dans les plus brefs dél
         <button onclick="plusSlides5l(1)">Suivant</button>
       </div>
     </div>
-  </section>
+  </section> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </body>
 <footer></footer>

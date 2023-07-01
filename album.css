@@ -1,180 +1,71 @@
-.mySlides1p, .mySlides3p, .mySlides5p
-  {
-    width: 350px;
-    height: auto;
-    margin-left: 100px;
-    margin-top: 50px;
-  }
+#carouselExampleCaptions, .carousel, .slide {
+  height: 100%;
+}
 
-.mySlides1l, .mySlides3l, .mySlides5l
-  {
-    width: 450px;
-    height: auto;
-    margin-right: 50px;
-    margin-top: 250px;
-  }
+.carousel-inner {
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+}
 
-.mySlides2p, .mySlides4p
-  {
-    width: 350px;
-    height: auto;
-    margin-top: 100px;
-    margin-left: 200px;
-  }
+.carousel-caption {
+  position: relative;
+  margin-top: 20px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        text-align: center;
+}
 
-.mySlides2l, .mySlides4l
-  {
-    width: 450px;
-    height: auto;
-    margin-right: 50px;
-    margin-top: 250px;
-  }
+.carousel-item {
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+}
 
-.portrait1, .portrait3, .portrait5
-  {
-    border: 2px darkcyan solid;
-  }
+button.carousel-control-next, button.carousel-control-prev {
+  background-color: blue;
+}
 
-.landscape1, .landscape3, .landscape5
-  {
-    display: flex;
-    flex-direction: column;
-    border: 2px darkcyan solid;
-  }
+.carousel-media {
+  max-height: 80vh;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
 
-.portrait2, .portrait4
-  {
-    border: 2px darkcyan solid;
-  }
+section {
+  border: 4px solid blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 850px;
+}  
 
-.landscape2, .landscape4
-  {
-    display: flex;
-    flex-direction: column;
-    border: 2px darkcyan solid;
-  }
-#button1l, #button3l, #button5l, #button1p, #button3p, #button5p
-  {
-    margin-left: 200px;
-    margin-top: 30px;
-  }
+header, footer {
+  background-image: url('images/flag_mini.png');
+  background-repeat:repeat;
+  height: 60px;
+}
 
-#caption1p, #caption3p, #caption5p, #caption1l, #caption3l, #caption5l
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 1.5em;
-    color:darkcyan;
-    text-align: center;
-  }
+h1,h2 {
+  text-align: center;
+  color: blue;
+}
 
-#button2l, #button4l
-  {
-    margin-top: 30px;
-    margin-left: 150px;
-  }
+body {
+  font-family: roboto;
+}
 
-#button2p, #button4p
-  {
-    margin-left: 300px;
-    margin-top: 30px;
-  }
-#caption2p, #caption4p, #caption2l, #caption4l
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 1.5em;
-    color:darkcyan;
-    text-align: center;
-  }
 
-section
-  {
-    border: 4px solid blue;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 850px;
-    display: flex;
-    gap: 10px;
-  }  
-
-header, footer
-  {
-    background-image: url('images/flag_mini.png');
-    background-repeat:repeat;
-    height: 60px;
-  }
-
-h1,h2
-  {
-    text-align: center;
-    color: blue;
-  }
-
-.container_impair_p
-  {
-    display: flex;
-  }
-
-.container_impair_l
-  {
-    display: flex;
-    flex-direction: column;
-    margin-left: 42px;  
-  }
-
-.container_pair_p
-  {
-    display: flex;
-  }
-
-.container_pair_l
-  {
-    display: flex;
-    flex-direction: column;
-    margin-left: 42px;
-  }
-
-.photo_button
-  {
-    display: flex;
-    flex-direction: column;
-  }
-  
-body 
-  {
-      font-family: roboto;
-  }
-
-#message
-  {
-    text-align: center;
-    color: red;
-    border: 6px red dashed;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  
-#indicationVidéo
-  {
-    border: 4px yellow dashed;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-
-video 
-  {
-    border: 4px yellow dashed;
-  }
+video {
+  border: 8px blue dashed;
+}
 
 /* Réorganiser les éléments pour les petits écrans */
 @media screen and (max-width: 768px) 
