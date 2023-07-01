@@ -6,6 +6,7 @@
   width: 50%;
   margin-right: 25%;
   margin-left: 25%;
+  align-items: center;
 }
 
 .carousel-caption {
@@ -53,15 +54,23 @@ header, footer {
   height: 60px;
 }
 
-h1,h2 {
+h2 {
   text-align: center;
   color: blue;
+  font-size: 2.5em;
 }
 
 body {
   font-family: roboto;
 }
 
+#annonce_galerie {
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+  color: red;
+  font-size: 1.5em;
+  font-weight: bold;
+}
 
 video {
   border: 8px blue dashed;
@@ -80,39 +89,70 @@ video {
       {
         width: 100%;
       }
+
+    .carousel-media
+      {
+        margin-top: 35%;
+      }
   }
 
 /* Optimiser la taille des polices pour les petits écrans */
 @media screen and (max-width: 480px) 
   {
     /* Exemple de modification de la taille de police */
-    h1 
-      {
-        font-size: 24px;
-      }
     
     p 
       {
         font-size: 14px;
       }
+
+    section 
+      {
+        height: 450px;
+      }
+
+    .carousel-media
+      {
+        margin-top: 0;
+        max-height: 350px;
+      }
+
+    .carousel-caption
+      {
+        margin-top: 0;
+        padding: 0%;
+      }
   }
 
-/* Augmenter la taille des boutons pour les écrans tactiles */
-.button 
+@media screen and (max-width: 375px) 
   {
-    padding: 10px 20px;
-    font-size: 16px;
+    /* Exemple de modification de la taille de police */
+    h2
+      { 
+        font-size: 20px;
+      }
+    
+    p 
+      {
+        font-size: 10px;
+      }
+
+    section 
+      {
+        height: 400px;
+      }
+
+    .carousel-media
+      {
+        margin-top: 0;
+        max-height: 350px;
+      }
+
+    .carousel-caption
+      {
+        margin-top: 0;
+        padding: 0%;
+      }
   }
 
-/* Optimiser l'affichage des images pour les petits écrans */
-img 
-  {
-    max-width: 100%;
-    height: auto;
-  }
 
-/* Masquer les éléments superflus pour les petits écrans */
-.unnecessary-element 
-  {
-    display: none;
-  }
