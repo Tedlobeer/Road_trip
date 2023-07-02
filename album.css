@@ -1,4 +1,4 @@
-#carouselExampleCaptions, .carousel, .slide {
+.carousel {
   height: 100%;
 }
 
@@ -19,11 +19,7 @@
         color: white;
         padding: 10px;
         text-align: center;
-}
-
-.carousel-item {
-  margin-top: 5vh;
-  margin-bottom: 15vh;
+        font-size: 1.5em;
 }
 
 button.carousel-control-next, button.carousel-control-prev {
@@ -31,7 +27,7 @@ button.carousel-control-next, button.carousel-control-prev {
 }
 
 .carousel-media {
-  max-height: 80vh;
+  max-height: 65vh;
   width: auto;
   max-width: 100%;
   object-fit: contain;
@@ -45,7 +41,7 @@ section {
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 850px;
+  height: 80vh;
 }  
 
 header, footer {
@@ -79,21 +75,44 @@ video {
 /* Réorganiser les éléments pour les petits écrans */
 @media screen and (max-width: 768px) 
   {
-    /* Exemple de réorganisation de la mise en page */
-    .sidebar 
+    section 
       {
-        display: none;
-      }
-    
-    .main-content 
-      {
-        width: 100%;
+        height: 85vh;
       }
 
     .carousel-media
       {
-        margin-top: 35%;
+        margin-top: 0;
+        max-height: 70vh;
       }
+
+    .carousel-caption
+      {
+        margin-top: 0;
+        padding: 0%;
+      }
+
+  }
+
+@media screen and (max-width: 620px) 
+  {
+    section 
+      {
+        height: 85vh;
+      }
+
+    .carousel-media
+      {
+        margin-top: 0;
+        max-height: 65vh;
+      }
+
+    .carousel-caption
+      {
+        margin-top: 0;
+        padding: 0%;
+      }
+
   }
 
 /* Optimiser la taille des polices pour les petits écrans */
